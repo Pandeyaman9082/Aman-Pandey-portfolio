@@ -1,0 +1,6 @@
+{
+  "name": "Aman Pandey Portfolio",
+  "description": "Premium personal portfolio website of Aman Pandey, a Computer Science Engineering (Diploma) student at Ambikeswar Group of Institute. Features a professional dark/light mode, custom animations, a full projects list, services, and an interactive AI chat assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
