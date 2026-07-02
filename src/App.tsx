@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import CustomCursor from "./components/CustomCursor";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -69,6 +70,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen transition-colors duration-300 font-sans bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 selection:bg-indigo-500/30">
+      <SpeedInsights />
       {/* Floating Interactive Custom Cursor */}
       <CustomCursor />
 
